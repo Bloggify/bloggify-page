@@ -1,5 +1,17 @@
 "use strict";
 
-const bloggifyPage = require("../lib");
+const BloggifyPage = require("../lib");
 
-console.log(bloggifyPage());
+
+let home = new BloggifyPage({
+    title: "Home"
+  , content: "Hey there!"
+});
+
+console.log(home);
+// BloggifyPage {
+//   title: 'Home',
+//   slug: 'Home',
+//   url: '/Home',
+//   content: 'Hey there!',
+//   raw_content: 'Hey there!' }
