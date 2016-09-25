@@ -23,6 +23,9 @@ const BloggifyPage = require("bloggify-page");
 let home = new BloggifyPage({
     title: "Home"
   , content: "Hey there!"
+  , metadata: {
+        customField: "Hello Mars!"
+    }
 });
 
 console.log(home);
@@ -31,6 +34,7 @@ console.log(home);
 //   slug: 'Home',
 //   url: '/Home',
 //   content: 'Hey there!',
+//   customField: 'Hello Mars!',
 //   raw_content: 'Hey there!' }
 ```
 
