@@ -3,7 +3,7 @@
 const BloggifyPage = require("../lib");
 
 
-let home = new BloggifyPage({
+const home = new BloggifyPage({
     title: "Home"
   , content: "Hey there!"
   , metadata: {
