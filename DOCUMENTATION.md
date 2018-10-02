@@ -7,6 +7,7 @@ BloggifyPage
 The Bloggify page class.
 
 #### Params
+
 - **Object** `data`: The page data:
   - `metadata` (Object):
     - `title` (String): The page title.
