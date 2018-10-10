@@ -36,6 +36,6 @@
   "homepage": "https://github.com/Bloggify/bloggify-page#readme",
   "dependencies": {
     "iterate-object": "^1.3.2",
-    "slugo": "^0.2.2"
+    "slugly": "^1.0.1"
   }
 }
